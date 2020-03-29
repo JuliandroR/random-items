@@ -1,0 +1,66 @@
+.container-number-draw {
+  margin-top: 20px;
+  width: 100%;
+  padding: 5px;
+}
+
+.container-number-draw label {
+  width: 100%;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 30px 0;
+}
+
+.container-number-draw div.container-interval {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-number-draw div.container-interval input {
+  width: 20%;
+}
+
+.container-number-draw button {
+  display: block;
+  margin: 20px auto;
+  background: #eb5e28;
+  border: none;
+}
+
+.container-number-draw button:hover{
+    background: #F06449;
+}
+
+.container-number-draw div.container-range {
+  display: flex;
+  justify-content: center;
+}
+
+.container-number-draw div.container-range span {
+  line-height: 25px;
+  font-size: 16px;
+  padding-left: 1%;
+  color: #eb5e28;
+  margin-top: -15px;
+}
+
+.container-number-draw div.container-range input[type="range"] {
+  -webkit-appearance: none;
+  background: rgba(0, 0, 0, 0);
+  border-bottom: none;
+  background: rgba(235, 95, 40, 0.5);
+  width: 40%;
+  height: 5px;
+}
+
+.container-number-draw
+  div.container-range
+  input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #eb5e28;
+  cursor: pointer;
+}

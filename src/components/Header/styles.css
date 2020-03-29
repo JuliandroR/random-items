@@ -1,0 +1,9 @@
+.header-container{
+    width: 100%;
+    padding: 1.5% 0 0 5%;
+}
+
+.header-container h1{
+    font: 700 30px;
+    color: #262626;
+}

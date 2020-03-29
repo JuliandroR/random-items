@@ -1,0 +1,35 @@
+.cards-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options,
+.result {
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  padding: 10%;
+
+  width: 100%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
+  box-shadow: 25px 35px 58px -20px rgba(79, 79, 79, 0.54);
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.options p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.result h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #262626;
+}
